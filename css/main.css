@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font: normal 100%/1.5 Georgia;
+  font-family: Georgia;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -9,12 +10,11 @@ html {
 }
 
 h1 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
   color: #b20953;
   text-align: center;
   margin: 0;
-  font-size: 3rem;
 }
 
 body {
@@ -22,7 +22,8 @@ body {
 }
 
 main {
-  margin:.3em;
+  margin: .3em;
+  color: #2f2d13;
 }
 
 header {
@@ -44,14 +45,14 @@ a {
   text-decoration: none;
 }
 
-footer p {
+footer small {
+  display: inline-block;
   margin: .3em;
   font-size: .3rem;
-  text-align: center;
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   text-align: left;
 }
@@ -61,12 +62,14 @@ figure {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
 footer {
 background-color: #ffe500;
 margin: 0;
+  text-align: center;
 padding: .3em;
 }
 
@@ -78,6 +81,9 @@ li:hover {
   background-color: #cc1465;
 }
 
+a:hover {
+  background-color: #cc1465;
+}
 ul {
   padding: 0;
 }

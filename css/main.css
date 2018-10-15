@@ -34,13 +34,12 @@ header {
 
 li {
   display: inline-block;
-  background-color: #b2a212;
-  border-radius: 4px;
-  padding: .3em;
-
 }
 
 a {
+  background-color: #b2a212;
+  border-radius: 4px;
+  padding: .3em;
   color: #fff;
   text-decoration: none;
 }
@@ -48,7 +47,7 @@ a {
 footer small {
   display: inline-block;
   margin: .3em;
-  font-size: .3rem;
+  font-size: .75rem;
 }
 
 h2 {
@@ -67,23 +66,20 @@ img {
 }
 
 footer {
-background-color: #ffe500;
-margin: 0;
+  background-color: #ffe500;
+  margin: 0;
   text-align: center;
-padding: .3em;
+  padding: .3em;
 }
 
 .fruits {
   background-color: #b20953;
 }
 
-li:hover {
-  background-color: #cc1465;
-}
-
 a:hover {
   background-color: #cc1465;
 }
+
 ul {
   padding: 0;
 }

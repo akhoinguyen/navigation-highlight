@@ -22,7 +22,7 @@ body {
 }
 
 main {
-  margin: .3em;
+  margin: .6em;
   color: #2f2d13;
 }
 
@@ -34,6 +34,7 @@ header {
 
 li {
   display: inline-block;
+  font-size: 1.125rem;
 }
 
 a {
@@ -54,10 +55,15 @@ h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
   text-align: left;
+  font-size: 1.875rem;
 }
 
 figure {
   margin: 0;
+}
+
+figcaption {
+  margin: .6em 0;
 }
 
 img {
@@ -69,7 +75,8 @@ footer {
   background-color: #ffe500;
   margin: 0;
   text-align: center;
-  padding: .3em;
+  padding: .6em;
+  padding-bottom: .8em;
 }
 
 .fruits {
@@ -81,5 +88,11 @@ a:hover {
 }
 
 ul {
-  padding: 0;
+  margin: 0;
+  padding: .2em;
+}
+
+.moremargin {
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
